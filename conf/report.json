@@ -1,0 +1,185 @@
+{
+ "xym":"a", "gauges" : { },
+  "counters" : {
+    "metrics:name=active_calls,method=org.apache.kylin.rest.service.QueryService.query" : {
+      "count" : 0
+    },
+    "metrics:project=default,cube=HYBRID[name->ci_inner_join_hybrid],name=QueryCount" : {
+      "count" : 1
+    },
+    "metrics:project=default,cube=HYBRID[name->ci_inner_join_hybrid],name=QuerySuccessCount" : {
+      "count" : 1
+    },
+    "metrics:project=default,name=QueryCount" : {
+      "count" : 1
+    },
+    "metrics:project=default,name=QuerySuccessCount" : {
+      "count" : 1
+    },
+    "metrics:project=total,name=QueryCount" : {
+      "count" : 1
+    },
+    "metrics:project=total,name=QuerySuccessCount" : {
+      "count" : 1
+    }
+  },
+  "histograms" : {
+    "metrics:project=default,cube=HYBRID[name->ci_inner_join_hybrid],name=QueryResultRowcount" : {
+      "count" : 1,
+      "max" : 1,
+      "mean" : 1.0,
+      "min" : 1,
+      "p50" : 1.0,
+      "p75" : 1.0,
+      "p95" : 1.0,
+      "p98" : 1.0,
+      "p99" : 1.0,
+      "p999" : 1.0,
+      "stddev" : 0.0
+    },
+    "metrics:project=default,cube=HYBRID[name->ci_inner_join_hybrid],name=QueryScanRowcount" : {
+      "count" : 1,
+      "max" : 731,
+      "mean" : 731.0,
+      "min" : 731,
+      "p50" : 731.0,
+      "p75" : 731.0,
+      "p95" : 731.0,
+      "p98" : 731.0,
+      "p99" : 731.0,
+      "p999" : 731.0,
+      "stddev" : 0.0
+    },
+    "metrics:project=default,name=QueryResultRowcount" : {
+      "count" : 1,
+      "max" : 1,
+      "mean" : 1.0,
+      "min" : 1,
+      "p50" : 1.0,
+      "p75" : 1.0,
+      "p95" : 1.0,
+      "p98" : 1.0,
+      "p99" : 1.0,
+      "p999" : 1.0,
+      "stddev" : 0.0
+    },
+    "metrics:project=default,name=QueryScanRowcount" : {
+      "count" : 1,
+      "max" : 731,
+      "mean" : 731.0,
+      "min" : 731,
+      "p50" : 731.0,
+      "p75" : 731.0,
+      "p95" : 731.0,
+      "p98" : 731.0,
+      "p99" : 731.0,
+      "p999" : 731.0,
+      "stddev" : 0.0
+    },
+    "metrics:project=total,name=QueryResultRowcount" : {
+      "count" : 1,
+      "max" : 1,
+      "mean" : 1.0,
+      "min" : 1,
+      "p50" : 1.0,
+      "p75" : 1.0,
+      "p95" : 1.0,
+      "p98" : 1.0,
+      "p99" : 1.0,
+      "p999" : 1.0,
+      "stddev" : 0.0
+    },
+    "metrics:project=total,name=QueryScanRowcount" : {
+      "count" : 1,
+      "max" : 731,
+      "mean" : 731.0,
+      "min" : 731,
+      "p50" : 731.0,
+      "p75" : 731.0,
+      "p95" : 731.0,
+      "p98" : 731.0,
+      "p99" : 731.0,
+      "p999" : 731.0,
+      "stddev" : 0.0
+    }
+  },
+  "meters" : { },
+  "timers" : {
+    "metrics:name=calls,method=org.apache.kylin.rest.service.QueryService.query" : {
+      "count" : 1,
+      "max" : 3876.936314,
+      "mean" : 3876.936314,
+      "min" : 3876.936314,
+      "p50" : 3876.936314,
+      "p75" : 3876.936314,
+      "p95" : 3876.936314,
+      "p98" : 3876.936314,
+      "p99" : 3876.936314,
+      "p999" : 3876.936314,
+      "stddev" : 0.0,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "metrics:project=default,cube=HYBRID[name->ci_inner_join_hybrid],name=QueryDuration" : {
+      "count" : 1,
+      "max" : 3967.0,
+      "mean" : 3967.0,
+      "min" : 3967.0,
+      "p50" : 3967.0,
+      "p75" : 3967.0,
+      "p95" : 3967.0,
+      "p98" : 3967.0,
+      "p99" : 3967.0,
+      "p999" : 3967.0,
+      "stddev" : 0.0,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "metrics:project=default,name=QueryDuration" : {
+      "count" : 1,
+      "max" : 3967.0,
+      "mean" : 3967.0,
+      "min" : 3967.0,
+      "p50" : 3967.0,
+      "p75" : 3967.0,
+      "p95" : 3967.0,
+      "p98" : 3967.0,
+      "p99" : 3967.0,
+      "p999" : 3967.0,
+      "stddev" : 0.0,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "metrics:project=total,name=QueryDuration" : {
+      "count" : 1,
+      "max" : 3967.0,
+      "mean" : 3967.0,
+      "min" : 3967.0,
+      "p50" : 3967.0,
+      "p75" : 3967.0,
+      "p95" : 3967.0,
+      "p98" : 3967.0,
+      "p99" : 3967.0,
+      "p999" : 3967.0,
+      "stddev" : 0.0,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    }
+  }
+}
